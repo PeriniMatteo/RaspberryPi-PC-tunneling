@@ -32,6 +32,7 @@ Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
 192.168.0.0     0.0.0.0         255.255.255.0   U     600    0        0 wlp2s0
 192.168.10.0    0.0.0.0         255.255.255.0   U     100    0        0 enp1s0f1```
 
+
 ```
 RaspberryPI
 Kernel IP routing table
@@ -39,8 +40,9 @@ Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
 0.0.0.0         192.168.0.1     0.0.0.0         UG    0      0        0 wlan0
 192.168.0.0     0.0.0.0         255.255.255.0   U     0      0        0 wlan0```
 
+
 Come si vede le interfacce hanno nomi diversi!
-Il file "server.sh" allegato è esattamente per la configurazione sopra descritta!
+Il file **server.sh** allegato è esattamente per la configurazione sopra descritta!
 
 come si vede il gateway nello script deve essere quello della connessione internet (quindi il wifi).
 
